@@ -1,0 +1,4 @@
+# ninja log v5
+0	20507	1688986966917126958	/data/zhang_20/420l_research/PointMCD_Local/utils/CD/build/temp.linux-x86_64-cpython-39/chamferdist/knn_cpu.o	2cfd012784862dd
+0	24182	1688986970589099119	/data/zhang_20/420l_research/PointMCD_Local/utils/CD/build/temp.linux-x86_64-cpython-39/chamferdist/ext.o	20092b722ba80a34
+0	87405	1688987033772634404	/data/zhang_20/420l_research/PointMCD_Local/utils/CD/build/temp.linux-x86_64-cpython-39/chamferdist/knn.o	90ef4b3123f56cab
