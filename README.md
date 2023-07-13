@@ -9,9 +9,9 @@ This code has been tested with Python 3.9, PyTorch 1.10.1, CUDA 11.1 and cuDNN 8
 ### Usage
 **[Datasets]** Download our [pre-processed datasets](https://drive.google.com/drive/folders/1y0Wuhb2GJ9fXGLXMKAyyyQ3Ja4nPUAbG?usp=sharing) and put them under the ```data``` folder. Or you can also use our [pre-processing code](https://drive.google.com/drive/folders/19pA1NkMfwvoonpX7NpO7XXZ7japK8Ry3?usp=sharing) to render multi-view images and the corresponding point-wise visibility for your own data.
 
-**[Scripts]** We provided the training scripts of different teacher networks and released their corresponding pre-trained model parameters under the ```ckpt/teacher``` folder. 
+**[Scripts]** We provided the training scripts of different teacher networks and released their corresponding pre-trained model parameters under the ```ckpt/teacher``` folder. All the required teacher knowledge information has been exported in advance, which can be downloaded from [here](https://drive.google.com/drive/folders/1ntuRIr8cZ4NY-c36HI18Rf0FP-gun2UO?usp=sharing), and put under the ```expt``` folder. 
 
-All the required teacher knowledge information has been exported in advance, which can be downloaded from [here](https://drive.google.com/drive/folders/1ntuRIr8cZ4NY-c36HI18Rf0FP-gun2UO?usp=sharing), and put under the ```expt``` folder. The trained student models will be stored under the ```ckpt/student``` folder.
+The trained student models will be stored under the ```ckpt/student``` folder.
 
 As a universal plug-in component for generic deep set architectures, one can easily integrate our approach to various types of deep point cloud encoders, such as [PointNet++](https://github.com/erikwijmans/Pointnet2_PyTorch) and [CurveNet](https://github.com/tiangexiang/CurveNet), as experimented in our paper. Your further efforts in applying PointMCD to other more powerful point cloud backbones and richer downstream task scenarios are warmly welcomed.
 
