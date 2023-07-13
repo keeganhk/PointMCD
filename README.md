@@ -1,6 +1,6 @@
 # PointMCD: Boosting Deep Point Cloud Encoders via Multi-view Cross-modal Distillation for 3D Shape Recognition
 
-This is the official implementation of **[[PointMCD](https://arxiv.org/pdf/2207.03128.pdf)] (TMM 2023)**, which is designed to boost deep 3D point cloud encoders by distilling discriminative cross-modal visual knowledge extracted from multi-view rendered images for 3D shape recognition task scenarios.
+This is the official implementation of **[[PointMCD](https://arxiv.org/pdf/2207.03128.pdf)] (TMM 2023)**, which is designed for boosting deep 3D point cloud encoders by distilling discriminative cross-modal visual knowledge extracted from multi-view rendered images for 3D shape recognition task scenarios.
 
 <p align="center"> <img src="https://github.com/keeganhk/PointMCD/blob/master/flowchart.png" width="85%"> </p>
 
